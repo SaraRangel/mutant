@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron">
+			<img src="img/magneto.jpg" align="left" class="img-thumbnail">
+            <div class="text-jumbotron"><h1>¡Bienvenido!</h1>
+            <p>Ingresa una secuencia de ADN para saber si un humano es mutante.</p>
+            </div>
+        </header>
+
+        <hr>
+
+       
+        <!-- Page Features -->
+		<div class="row">
+			<div class="col-lg-12 ">
+				<div class="pull-right">
+					
+					<button class="btn btn-success" id="btn-add"> <i class="fa fa-plus"></i> Agregar</button>
+					<button class="btn btn-danger" id="btn-delete"> <i class="fa fa-minus"></i> Eliminar</button>
+						<button class="btn btn-primary"  id="btn-clear"> <i class="fa fa-eraser"></i> Limpiar</button>
+				</div>
+				<div class="col-lg-12 text-center">
+				
+				</div>
+				
+			</div>
+		</div>
+		<hr>
+        <div class="row ">
+			
+			<div class="col-lg-12 div-wrapper">
+			<form action="mutant.php" method="POST" >
+			<div id="#form-mutant">
+				<div class="col-lg-12 div-row">
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="0[0]" value="A" row="0" colu="0">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="0[1]" value="T" row="0" colu="1">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="0[2]" value="G" row="0" colu="2">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="0[3]" value="C" row="0" colu="3">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="0[4]" value="G" row="0" colu="4">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="0[5]" value="A" row="0" colu="5">
+					</div>
+				</div>
+				<div class="col-lg-12 div-row">
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="1[0]" value="C" row="1" colu="0">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="1[1]" value="A" row="1" colu="1">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="1[2]" value="G" row="1" colu="2">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="1[3]" value="T" row="1" colu="3">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="1[4]" value="G" row="1" colu="4">
+					</div>
+					<div class="col-md-1 col-sm-6 hero-feature">
+						<input type="text" required=""  class="form-control base-nitro" name="1[5]" value="C" row="1" colu="5">
+					</div>
+				</div>
+				<div class="col-lg-12 div-row">
+            <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="2[0]" value="T" row="2" colu="0">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="2[1]" value="T" row="2" colu="1">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="2[2]" value="A" row="2" colu="2">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="2[3]" value="T" row="2" colu="3">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="2[4]" value="G" row="2" colu="4">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="2[5]" value="T" row="2" colu="5">
+            </div>
+		</div>
+		<div class="col-lg-12 div-row">
+            <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="3[0]" value="A" row="3" colu="0">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="3[1]" value="G" row="3" colu="1">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="3[2]" value="A" row="3" colu="2">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="3[3]" value="A" row="3" colu="3">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="3[4]" value="G" row="3" colu="4">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="3[5]" value="G" row="3" colu="5">
+            </div>
+		</div>
+		<div class="col-lg-12 div-row">
+            <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="4[0]" value="C" row="4" colu="0">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="4[1]" value="C" row="4" colu="1">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="4[2]" value="C" row="4" colu="2">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="4[3]" value="C" row="4" colu="3">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="4[4]" value="T" row="4" colu="4">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="4[5]" value="A" row="4" colu="5">
+            </div>
+		</div>
+		<div class="col-lg-12 div-row">
+            <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="5[0]" value="T" row="5" colu="0">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="5[1]" value="C" row="5" colu="1">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="5[2]" value="A" row="5" colu="2">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="5[3]" value="C" row="5" colu="3">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="5[4]" value="T" row="5" colu="4">
+            </div>
+			  <div class="col-md-1 col-sm-6 hero-feature">
+               <input type="text" required=""  required =""  class="form-control base-nitro" name="5[5]" value="G" row="5" colu="5">
+            </div>
+		</div>
+		</div>
+		<div class="col-lg-6 text-center">
+				<input type="submit" value="Verificar" class="btn btn-info">
+			</div>
+			</form>
+		
+			</div>
+	
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Sara Rangel</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/heroic.js"></script>
+
+</body>
+
+</html>
